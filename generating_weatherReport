@@ -37,7 +37,11 @@ def main():
                 setTime[1], data['coord']['lat'], data['coord']['lon'])).arial= True
 
     except:
+<<<<<<< HEAD
         print(".....oops🤭.....")
+=======
+        print("...oops🤭...")
+>>>>>>> origin/main
         print("location not found ")
 
 
