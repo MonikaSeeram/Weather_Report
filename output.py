@@ -1,6 +1,7 @@
 from scraping_weatherReport import*
 import os
 
+
 #defining the function to display the output in word document
 def print():
     weather.add_run("\n--------------- Thanks For Visiting 👋 ---------------")
