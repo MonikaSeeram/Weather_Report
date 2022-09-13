@@ -19,7 +19,7 @@ APIKey = "714c2da2279a72ec8bb713798409d352"
 
 
 
-# defining the function to scarp the weather report from the web using api key and url
+# defining the function to scrap the weather report from the web using api key and url
 def web_scrap():
     location = input("Enter location : ")
     url = "https://api.openweathermap.org/data/2.5/weather?q=%s&APPID=%s" % (location, APIKey)  # Service url
