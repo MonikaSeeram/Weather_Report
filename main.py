@@ -1,4 +1,4 @@
-from output import print # importing print function from output module
+from output import display, print # importing print function from output module
 from GeneratingReport import main # importing main function
 
 
@@ -12,4 +12,4 @@ while (choice):
     elif choice == 'no':
         choice = False
 
-print() # calling the function to display the report on word document
+display() # calling the function to display the report on word document
