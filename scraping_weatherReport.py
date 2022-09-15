@@ -12,7 +12,7 @@ date_time = datetime.now().strftime("%d %b %Y | %I:%M:%S %p")
 # heading of the docx
 doc.add_heading('⛅🌦️🏖️WEATHER FORECASTING DETAILS🏖️🌥️🌤️-----------------------------' + date_time, 0)
 # adding pictures
-doc.add_picture("C:/Users/KATTAKART/Desktop/Forecast/img.jpg", width=Inches(3.5))
+doc.add_picture("img.jpg", width=Inches(3.5))
 # write a paragraph:
 weather = doc.add_paragraph()
 APIKey = "714c2da2279a72ec8bb713798409d352"
